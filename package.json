@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "start": "node -r @swc-node/register index.ts",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint-fix": "yarn lint:eslint-fix && yarn lint:prettier-fix",
